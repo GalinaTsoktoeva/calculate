@@ -21,7 +21,7 @@ public class Calculate {
         String r = arrayExp[1];
         a = Integer.parseInt(arrayExp[0]);
         b = Integer.parseInt(arrayExp[2]);
-        if ((a < 10) && (a > 0) && (b < 10) && (b > 0) ) {
+        if ((a <= 10) && (a > 0) && (b <= 10) && (b > 0) ) {
 
             switch (r) {
                 case "-":
